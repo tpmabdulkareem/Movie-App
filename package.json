@@ -19,6 +19,9 @@
 		"redux-thunk": "^2.3.0",
 		"styled-components": "^5.0.1"
 	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
