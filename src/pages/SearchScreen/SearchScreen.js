@@ -35,13 +35,15 @@ const SearchScreen = () => {
 					</NoSearch>
 				) : (
 					<Suspense fallback={<NoSearch>Loading...</NoSearch>}>
-						{usersData.map((item, i) => {
-							return (
-								<LazyLoad key={i} height={200} offset={100} placeholder={<p>Loading..</p>}>
-									<Cards key={i} name={item.name} image={get(item, "poster-image")} />
-								</LazyLoad>
-							);
-						})}
+						<div className="grid grid-cols-3 gap-2" style={{ height: "100%" }}>
+							{usersData.map((item, i) => {
+								return (
+									<LazyLoad key={i} height={200} offset={100} placeholder={<p>Loading..</p>}>
+										<Cards key={i} name={item.name} image={get(item, "poster-image")} />
+									</LazyLoad>
+								);
+							})}
+						</div>
 					</Suspense>
 				)}
 				{isEmpty(usersData) && searchText && (
@@ -51,7 +53,6 @@ const SearchScreen = () => {
 					</NoSearch>
 				)}
 			</CardContainer>
-			)}
 		</MainContainer>
 	);
 };

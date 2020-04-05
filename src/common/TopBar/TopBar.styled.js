@@ -4,9 +4,11 @@ export const TopNav = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 30px 0px 30px;
+	padding: 20px 30px 2px 30px;
 	top: 0;
-	box-shadow: 5px 9px 30px 9px #000;
+	box-shadow: 0px 14px 37px 15px #000;
+	position: sticky;
+	z-index: 1;
 `;
 
 export const ArrowLeft = styled.div`

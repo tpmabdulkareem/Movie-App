@@ -7,7 +7,7 @@ export const CardDiv = styled.div`
 export const DisplayImage = styled.img`
 	height: 150px;
 	width: 100%;
-	object-fit: contain;
+	object-fit: fit;
 `;
 
 export const Text = styled.p`

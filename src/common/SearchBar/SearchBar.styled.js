@@ -7,6 +7,7 @@ export const Input = styled.input`
 	padding: 0 10px 0 10px;
 	margin-left: 10px;
 	border: 0;
+	color: #000;
 `;
 
 export const TopNav = styled.div`

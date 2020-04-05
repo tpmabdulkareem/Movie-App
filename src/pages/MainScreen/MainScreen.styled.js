@@ -9,13 +9,12 @@ export const MainContainer = styled.div`
 `;
 
 export const CardContainer = styled.div`
-	height: 90vh;
+	height: 95vh;
 	width: 100%;
-	padding-bottom: 10px;
+	padding-top: 5vh;
 	display: flex;
 	justify-content: center;
-	flex-wrap: wrap;
-	overflow-y: auto;
+	overflow: auto !important;
 	position: fixed;
 	background: #000;
 `;
