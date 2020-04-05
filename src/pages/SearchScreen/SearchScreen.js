@@ -13,13 +13,17 @@ const Cards = lazy(() => import("../../common/Cards/Cards"));
 
 const SearchScreen = () => {
 	const [searchText, setSearch] = useState("");
+	//Redux Fetch
 	const { usersData } = useSelector((state) => state);
 	const dispatch = useDispatch();
+
+	//Search Function Triggered on input
 	const handleSearch = (text) => {
 		let value = text.target.value;
 		setSearch(value);
 		dispatch(searchData(value));
 	};
+
 	return (
 		<MainContainer>
 			<SearchBar handleChange={handleSearch} />

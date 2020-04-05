@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
-import MainScreen from "./pages/MainScreen/MainScreen";
 import routes from "./routes";
+import MainScreen from "./pages/MainScreen/MainScreen";
 import SearchScreen from "./pages/SearchScreen/SearchScreen";
 function App() {
 	return (
