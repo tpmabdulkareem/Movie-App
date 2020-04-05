@@ -1,18 +1,18 @@
 {
   "files": {
-    "static/js/0.e0011e75.chunk.js": "/diagnal-test/static/js/0.e0011e75.chunk.js",
-    "static/js/0.e0011e75.chunk.js.map": "/diagnal-test/static/js/0.e0011e75.chunk.js.map",
-    "main.css": "/diagnal-test/static/css/main.21d0564c.chunk.css",
-    "main.js": "/diagnal-test/static/js/main.61fc0d69.chunk.js",
-    "main.js.map": "/diagnal-test/static/js/main.61fc0d69.chunk.js.map",
-    "runtime-main.js": "/diagnal-test/static/js/runtime-main.a9ac9f36.js",
-    "runtime-main.js.map": "/diagnal-test/static/js/runtime-main.a9ac9f36.js.map",
+    "static/js/0.8ffdb603.chunk.js": "/diagnal-test/static/js/0.8ffdb603.chunk.js",
+    "static/js/0.8ffdb603.chunk.js.map": "/diagnal-test/static/js/0.8ffdb603.chunk.js.map",
+    "main.css": "/diagnal-test/static/css/main.6992d02e.chunk.css",
+    "main.js": "/diagnal-test/static/js/main.f6cdbdea.chunk.js",
+    "main.js.map": "/diagnal-test/static/js/main.f6cdbdea.chunk.js.map",
+    "runtime-main.js": "/diagnal-test/static/js/runtime-main.0f24dc92.js",
+    "runtime-main.js.map": "/diagnal-test/static/js/runtime-main.0f24dc92.js.map",
     "static/js/3.542f3137.chunk.js": "/diagnal-test/static/js/3.542f3137.chunk.js",
     "static/js/3.542f3137.chunk.js.map": "/diagnal-test/static/js/3.542f3137.chunk.js.map",
     "index.html": "/diagnal-test/index.html",
-    "precache-manifest.a5be33c08a941cf30cfd02d3b8b57137.js": "/diagnal-test/precache-manifest.a5be33c08a941cf30cfd02d3b8b57137.js",
+    "precache-manifest.29c31576f025c1510b5bd1fdb0d5b0c7.js": "/diagnal-test/precache-manifest.29c31576f025c1510b5bd1fdb0d5b0c7.js",
     "service-worker.js": "/diagnal-test/service-worker.js",
-    "static/css/main.21d0564c.chunk.css.map": "/diagnal-test/static/css/main.21d0564c.chunk.css.map",
+    "static/css/main.6992d02e.chunk.css.map": "/diagnal-test/static/css/main.6992d02e.chunk.css.map",
     "static/js/3.542f3137.chunk.js.LICENSE.txt": "/diagnal-test/static/js/3.542f3137.chunk.js.LICENSE.txt",
     "static/media/poster1.jpg": "/diagnal-test/static/media/poster1.d5f2a7f4.jpg",
     "static/media/poster2.jpg": "/diagnal-test/static/media/poster2.81ccf144.jpg",
@@ -25,9 +25,9 @@
     "static/media/poster9.jpg": "/diagnal-test/static/media/poster9.65d6d500.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9ac9f36.js",
+    "static/js/runtime-main.0f24dc92.js",
     "static/js/3.542f3137.chunk.js",
-    "static/css/main.21d0564c.chunk.css",
-    "static/js/main.61fc0d69.chunk.js"
+    "static/css/main.6992d02e.chunk.css",
+    "static/js/main.f6cdbdea.chunk.js"
   ]
 }
